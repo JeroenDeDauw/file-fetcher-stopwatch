@@ -5,7 +5,7 @@ declare( strict_types = 1 );
 namespace FileFetcher\Stopwatch;
 
 use FileFetcher\FileFetcher;
-use FileFetcher\StopwatchFileFetcher;
+use FileFetcher\Stopwatch\PackagePrivate\StopwatchFileFetcher;
 use Symfony\Component\Stopwatch\Stopwatch;
 
 /**
