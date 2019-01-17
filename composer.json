@@ -2,6 +2,15 @@
 	"name": "jeroen/file-fetcher-stopwatch",
 	"license": "GPL-2.0-or-later",
 	"description": "Provides a Symfony Stopwatch decorator for file fetchers",
+	"keywords": [
+		"file_get_contents",
+		"file fetcher",
+		"filefetcher",
+		"symfony",
+		"stopwatch",
+		"profile",
+		"profiling"
+	],
 	"require": {
 		"php": ">=7.1",
 		"jeroen/file-fetcher": "~6.0|~5.0",

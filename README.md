@@ -1,6 +1,10 @@
 # FileFetcher Stopwatch
 
 [![Build Status](https://travis-ci.org/JeroenDeDauw/file-fetcher-stopwatch.svg?branch=master)](https://travis-ci.org/JeroenDeDauw/file-fetcher-stopwatch)
+[![Code Coverage](https://scrutinizer-ci.com/g/JeroenDeDauw/file-fetcher-stopwatch/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/JeroenDeDauw/file-fetcher-stopwatch/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/JeroenDeDauw/file-fetcher-stopwatch/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/JeroenDeDauw/file-fetcher-stopwatch/?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/jeroen/file-fetcher-stopwatch/version.png)](https://packagist.org/packages/jeroen/file-fetcher-stopwatch)
+[![Download count](https://poser.pugx.org/jeroen/file-fetcher-stopwatch/d/total.png)](https://packagist.org/packages/jeroen/file-fetcher-stopwatch)
 
 Provides a [FileFetcher](https://github.com/JeroenDeDauw/FileFetcher) [decorator](https://en.wikipedia.org/wiki/Decorator_pattern)
 that profiles file fetching using [Symfony Stopwatch](https://symfony.com/doc/current/components/stopwatch.html).
@@ -61,4 +65,4 @@ You can also invoke PHPUnit directly to pass it arguments, as follows
 
 ### 1.0.0 (2019-01-17)
 
-* Initial version with 
+* Initial release with `Factory->newStopwatchFetcher()`
