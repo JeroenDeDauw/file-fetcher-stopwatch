@@ -63,6 +63,10 @@ You can also invoke PHPUnit directly to pass it arguments, as follows
 
 ## Release notes
 
+### 1.0.2 (2019-12-23)
+
+* Installation together with Symfony Stopwatch 5.x is now allowed
+
 ### 1.0.1 (2019-01-17)
 
 * Fixed compatibility issue with FileFetcher 6.x
