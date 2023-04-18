@@ -16,14 +16,11 @@ use Symfony\Component\Stopwatch\Stopwatch;
  */
 class StopwatchFileFetcher implements FileFetcher {
 
-	private $fileFetcher;
-	private $stopwatch;
-	private $category;
-
-	public function __construct( FileFetcher $fileFetcher, Stopwatch $stopwatch, string $category ) {
-		$this->fileFetcher = $fileFetcher;
-		$this->stopwatch = $stopwatch;
-		$this->category = $category;
+	public function __construct(
+		private readonly FileFetcher $fileFetcher,
+		private readonly Stopwatch $stopwatch,
+		private readonly string $category
+	) {
 	}
 
 	public function fetchFile( string $fileUrl ): string {
