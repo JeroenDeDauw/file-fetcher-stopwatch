@@ -63,6 +63,11 @@ You can also invoke PHPUnit directly to pass it arguments, as follows
 
 ## Release notes
 
+### 1.0.3 (2023-04-18)
+
+* Installation together with Symfony Stopwatch 6.x is now allowed
+* Updated minimum PHP version to 8.1
+
 ### 1.0.2 (2019-12-23)
 
 * Installation together with Symfony Stopwatch 5.x is now allowed
